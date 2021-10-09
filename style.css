@@ -33,7 +33,11 @@ h1 {
 }
 
 body {
-  background-image: url("candy-crush-background-2.png");
+  background: url(images/caverna_bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   max-width: 100vh;
   display: flex;
 }
